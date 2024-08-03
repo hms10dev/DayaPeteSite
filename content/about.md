@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: About DayaPete
 description: I create and design digital marketing resources for overwhelmed CEOs who just want to do what they love without worrying about the tiny details of marketing.
 image: "/images/DSC_6166_(1).jpg"
 image_caption: "The Woman of The Hour"

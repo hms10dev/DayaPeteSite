@@ -160,8 +160,8 @@ paginate = 5
   # Work Settings
   [params.work]
     enable = true
-    work__title= "Work"
-    work__description= "I shows only the best websites and portfolios built completely with passion, simplicity & creativity!"
+    work__title= "My Works"
+    work__description= "At DayaPeteCopy, we pride ourselves on delivering exceptional copywriting and digital marketing solutions that drive results."
 
 
   #-------------------------------
@@ -174,14 +174,14 @@ paginate = 5
   [[params.testimonial_item]]
     name = "Amarya Henna"
     image = "https://via.placeholder.com/400x400"
-    designation = "Product Designer"
+    designation = "Henna Buisness"
     link = "https://twitter.com/"
     content = "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
 
   [[params.testimonial_item]]
     name = "HMSDev LLC."
     image = "https://via.placeholder.com/400x400"
-    designation = "Statistician"
+    designation = "Technical Entity"
     link = "https://facebook.com/"
     content = "Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration"
 
@@ -240,8 +240,7 @@ paginate = 5
   [params.blog]
     enable = true
     blog__title = "The Copy Corner"
-    blog__description = "Welcome to The Copy Corner, where words come to play and marketing magic happens! Dive into a world of tips, tricks, and tales from the copywriting and digital marketing universe. Whether you're looking to boost your brand, master the art of storytelling, or simply enjoy a good read, we've got you covered. Grab a cup of coffee, get comfy, and let's turn those blank pages into brilliant stories!"
-
+    blog__description = "Welcome to The Copy Corner, where words come to play and marketing magic happens! Dive into a world of tips, tricks, and tales from the copywriting and digital marketing universe."
 
   #-------------------------------
   # Footer Settings
