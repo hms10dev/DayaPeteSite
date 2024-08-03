@@ -239,8 +239,8 @@ paginate = 5
   # Blog Section
   [params.blog]
     enable = true
-    blog__title = "Writing"
-    blog__description = ""
+    blog__title = "Hedaya's Thoughts and Musings"
+    blog__description = "My Thoughts and Musings"
 
 
   #-------------------------------
