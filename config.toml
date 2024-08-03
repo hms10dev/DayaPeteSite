@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-baseURL = "http://example.org/"
+baseURL = "http://dayapetecopy.com/"
 languageCode = "en-us"
 title = "DayaPete.com"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
@@ -37,21 +37,26 @@ paginate = 5
     weight = 4
 
   [[menu.main]]
-    name = "Pages"
-    weight = 5
-    hasChildren = true
-
-  [[menu.main]]
-    parent = "Pages"
     name = "Contact"
     url = "/contact/"
-    weight = 1
+    weight = 5  
 
-  [[menu.main]]
-    parent = "Pages"
-    name = "Elements"
-    url = "/elements/"
-    weight = 2
+#  [[menu.main]]
+#    name = "Pages"
+#    weight = 5
+#    hasChildren = true
+
+#  [[menu.main]]
+#    parent = "Pages"
+#    name = "Contact"
+#    url = "/contact/"
+#    weight = 1
+
+#  [[menu.main]]
+#    parent = "Pages"
+#    name = "Elements"
+#    url = "/elements/"
+#    weight = 2
 
 
   #-------------------------------
@@ -82,15 +87,15 @@ paginate = 5
     name = "Pinterest"
     link = "https://pinterest.com"
 
-  [[params.social]]
-    icon = "ion-logo-github"
-    name = "Github"
-    link = "https://github.com"
+  # [[params.social]]
+  #   icon = "ion-logo-github"
+  #   name = "Github"
+  #   link = "https://github.com"
 
-  [[params.social]]
-    icon = "ion-logo-vimeo"
-    name = "Vimeo"
-    link = "https://vimeo.com"
+  #[[params.social]]
+  #  icon = "ion-logo-vimeo"
+  #  name = "Vimeo"
+  #  link = "https://vimeo.com"
 
   # Example of adding a new link to the footer:
   # [[params.social]]
