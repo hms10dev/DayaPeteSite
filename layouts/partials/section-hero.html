@@ -18,7 +18,7 @@
           <div class="hero__subscribe">
             <form class="subscribe-form validate"
               action="{{ if .Site.Params.mailchimp.mailchimp__identifier }}//{{.Site.Params.mailchimp.mailchimp__identifier}}{{ else }}#{{ end }}" method="POST"
-              id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate>
+              id="membedded-subscribe-form" name="membedded-subscribe-form" target="_blank" novalidate netlify>
               <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
               <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL"
                 placeholder="{{ if .Site.Params.mailchimp.mailchimp__input__text }}{{ .Site.Params.mailchimp.mailchimp__input__text }}{{ else }}Email address{{ end }}">
