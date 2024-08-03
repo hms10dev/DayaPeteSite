@@ -4,7 +4,7 @@ backend:
 publish_mode: editorial_workflow
 logo_url: "static/DPC.ico"
 media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+public_folder: "images/uploads"
 collections:
   - name: template
     label: Posts
@@ -27,4 +27,3 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Featured Image", name: "thumbnail", widget: "image" }
       - { label: "Body", name: "body", widget: "markdown" }
-      comment: 'This is a multiline\ncomment'
