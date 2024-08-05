@@ -1,6 +1,5 @@
 #-------------------------------
 # General Site Settings
-# Change BaseURL When we connect to domain
 baseURL = "https://dayapetecopy.netlify.app/"
 languageCode = "en-us"
 title = "DayaPete.com"
