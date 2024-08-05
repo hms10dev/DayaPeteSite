@@ -47,7 +47,7 @@
     <div class="col col-12">
       <div class="section-small">
         <div class="section__inner grid">
-          {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts" ) }}
+          {{ $paginator := .Paginate (where .Site.RegularPages.ByDate.Reverse "Type" "posts" ) }}
           {{ range $paginator.Pages }}
             {{ partial "article" . }}
           {{ end }}

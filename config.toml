@@ -41,22 +41,6 @@ paginate = 5
     url = "/contact/"
     weight = 5  
 
-#  [[menu.main]]
-#    name = "Pages"
-#    weight = 5
-#    hasChildren = true
-
-#  [[menu.main]]
-#    parent = "Pages"
-#    name = "Contact"
-#    url = "/contact/"
-#    weight = 1
-
-#  [[menu.main]]
-#    parent = "Pages"
-#    name = "Elements"
-#    url = "/elements/"
-#    weight = 2
 
 
   #-------------------------------
@@ -87,15 +71,6 @@ paginate = 5
     name = "Pinterest"
     link = "https://pinterest.com"
 
-  # [[params.social]]
-  #   icon = "ion-logo-github"
-  #   name = "Github"
-  #   link = "https://github.com"
-
-  #[[params.social]]
-  #  icon = "ion-logo-vimeo"
-  #  name = "Vimeo"
-  #  link = "https://vimeo.com"
 
   # Example of adding a new link to the footer:
   # [[params.social]]
@@ -279,3 +254,11 @@ paginate = 5
   codeFences = true
   guessSyntax = true
   noClasses = false
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  tag = "/tags/:slug/"
