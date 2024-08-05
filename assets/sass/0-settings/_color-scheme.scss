@@ -4,8 +4,9 @@
   --primary-color: #FFADC6;
   --secondary-color: #FDEED9; /* Creamy off-white as a soft contrast */
   --accent-color: #B287A3; /* Muted purple for elegance */
-  --dark-color: #573C27; /* Deeper green for contrast and grounding */
+  --dark-color: #573C27; /* Deeper Brown for contrast and grounding */
   --light-color: #5A9367; /* Softer green as a neutral */
+  --light-color-hover: #76937d; /* Softer green as a neutral */
   --white: #fff;
   --light-gray: #f5f5f5;
   --lighten-gray: #e7e7e7;
@@ -27,8 +28,8 @@
   --heading-font-color: var(--dark);
 
   // Link
-  --link-color: var(--dark);
-  --link-color-hover: var(--dark);
+  --link-color: var(--light-color);
+  --link-color-hover: var(--light-color-hover);
 
   // Button
   --button-color: var(--white);
@@ -81,7 +82,7 @@
 
   // Link
   --link-color: var(--light-gray);
-  --link-color-hover: var(--light-gray);
+  --link-color-hover: var(--lighten-gray);
 
   // Button
   --button-color: var(--white);
