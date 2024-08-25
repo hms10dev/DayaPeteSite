@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on DayaPete.com</title>
-    <link>https://dayapetecopy.netlify.app/posts/</link>
-    <description>Recent content in Posts on DayaPete.com</description>
+    <title>Posts on DayaPeteCopy.com</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on DayaPeteCopy.com</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 02 Aug 2024 23:53:00 +0000</lastBuildDate>
-    <atom:link href="https://dayapetecopy.netlify.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test :) </title>
-      <link>https://dayapetecopy.netlify.app/posts/2024-08-03-test/</link>
+      <link>http://localhost:1313/posts/2024-08-03-test/</link>
       <pubDate>Fri, 02 Aug 2024 23:53:00 +0000</pubDate>
-      <guid>https://dayapetecopy.netlify.app/posts/2024-08-03-test/</guid>
+      <guid>http://localhost:1313/posts/2024-08-03-test/</guid>
       <description>Whoop Whoop 123 Test&#xA;quote&#xA;yeah yeha&#xA;System.out.println(&amp;#34;party on da roof&amp;#34;); list </description>
     </item>
     <item>
       <title>Test Blog Post :)</title>
-      <link>https://dayapetecopy.netlify.app/posts/blog/2024-08-03-test-blog-post/</link>
+      <link>http://localhost:1313/posts/blog/2024-08-03-test-blog-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dayapetecopy.netlify.app/posts/blog/2024-08-03-test-blog-post/</guid>
+      <guid>http://localhost:1313/posts/blog/2024-08-03-test-blog-post/</guid>
       <description>This is a test. hopefully everything parses correctly. If you are asking if I a mdrowsy, the answer is yes</description>
     </item>
   </channel>
