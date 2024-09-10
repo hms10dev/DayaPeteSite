@@ -28,8 +28,8 @@ collections:
       - {
           label: "Date",
           name: "date",
-          date_format: "DD.MM.YYYY",
-          time_format: "HH:mm",
+          date_format: "YYYY-MM-DD", # Hugo typically uses the YYYY-MM-DD format for dates
+          time_format: "HH:mm:ssZ",
           widget: "datetime",
         }
       - { label: "Client", name: "client", widget: "text" }
